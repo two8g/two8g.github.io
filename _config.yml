@@ -20,3 +20,8 @@ timezone: Asia/Shanghai
 
 # Build settings
 markdown: kramdown
+
+#googleAnaly, your id link UA-12345678-X
+googleAnaly:
+  config: false
+  id: UA-71835017-1

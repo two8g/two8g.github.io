@@ -8,14 +8,13 @@
 # Site settings
 title: two8g
 email: ybxnice@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
+description: 易斌鑫的学习博客
+keywords: two8g 易斌鑫 编程技术 博客
+favicon: /images/two8g_16x16.ico
 url: "http://two8g.com" # the base hostname & protocol for your site
 twitter_username: two8g
 github_username:  two8g
+oscgit_username: ybxgit
 timezone: Asia/Shanghai
 
 # Build settings
@@ -23,5 +22,5 @@ markdown: kramdown
 
 #googleAnaly, your id link UA-12345678-X
 googleAnaly:
-  config: false
+  config: true
   id: UA-71835017-1

@@ -1,7 +1,15 @@
+---
+layout: post
+title: Spirits_of_Great_Companies
+date: 2016-02-15 09:13:56
+permalink: /year/month/day/title.html
+category: "other"
+---
+
 ## The spirits of great companies
 **大企业的精神**
 
-1. wikipedia
+1. Wikipedia
 
 	Imagine a world in which every single human being can freely share in the sum of all knowledge.
 

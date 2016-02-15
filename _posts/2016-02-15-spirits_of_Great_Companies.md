@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Spirits_of_Great_Companies
-date: 2016-02-15 09:13:56
-permalink: /year/month/day/title.html
-category: "other"
+title: "Spirits of Great Companies"
+date: 2016-02-15 09:13:56 +0800
+categories: other
 ---
 
 ## The spirits of great companies

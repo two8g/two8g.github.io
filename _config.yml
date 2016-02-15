@@ -5,20 +5,98 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+# Where things are
+source:       .
+destination:  ./_site
+plugins_dir:  ./_plugins
+layouts_dir:  ./_layouts
+data_dir:     ./_data
+includes_dir: ./_includes
+collections:  null
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
+
+# Plugins
+whitelist: []
+gems:      []
+
+# Conversion
+markdown:    kramdown
+highlighter: rouge
+lsi:         false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Serving
+detach:  false
+port:    4000
+host:    127.0.0.1
+baseurl: "" # does not include hostname
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      Asia/Shanghai
+
+quiet:    false
+defaults: []
+
+# Markdown Processors
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+coderay:
+  coderay_wrap:              div
+  coderay_line_numbers:      inline
+  coderay_line_number_start: 1
+  coderay_tab_width:         4
+  coderay_bold_every:        10
+  coderay_css:               style
+
 # Site settings
 title: two8g
 email: ybxnice@gmail.com
 description: 易斌鑫的学习博客
-keywords: two8g 易斌鑫 编程技术 博客
+keywords: 编程技术
 favicon: /images/two8g_16x16.ico
 url: "http://two8g.com" # the base hostname & protocol for your site
 twitter_username: two8g
 github_username:  two8g
 oscgit_username: ybxgit
-timezone: Asia/Shanghai
 
-# Build settings
-markdown: kramdown
+#author settings
+author:
+  avatar: http://s.gravatar.com/avatar/a97ad60bc6a6d1ba33ab765286f735bb?s=80
+  name: two8g
+  name_cn: 易斌鑫
+  email: ybxnice@gmail.com
+  twitter_username: two8g
+  github_username:  two8g
+  oscgit_username: ybxgit
 
 #googleAnaly, your id link UA-12345678-X
 googleAnaly:

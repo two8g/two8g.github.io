@@ -47,7 +47,6 @@ baseurl: "" # does not include hostname
 
 # Outputting
 permalink:     date
-paginate_path: /page:num
 timezone:      Asia/Shanghai
 
 # Site settings

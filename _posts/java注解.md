@@ -1,7 +1,7 @@
 ---
 layout: post
 title: JAVA注解
-date: 2016-02-15 09:16:13 +0800
+date: 2016-02-15 09:16:13
 categories: JAVA
 tags: java 注解
 ---

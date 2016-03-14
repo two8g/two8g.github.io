@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Spirits of Great Companies"
-date: 2016-02-15 09:13:56
 categories: other
 ---
 

@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+他是个很懒的家伙，甚至是个自大的懒家伙。
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+虽然他也是个很有好奇心的家伙，对软件好奇，对计算机好奇，对开源也很好奇。
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+可是他什么都不会，基础差，追新东西，不爱做笔记，不善于做总结。
+
+所以，看到的这个家伙的博客，真是倒了大霉。千万不要学这家伙，以这家伙为耻。
+
+<h4 style="text-align:right">------  这家伙</h4>

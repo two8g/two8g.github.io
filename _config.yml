@@ -5,6 +5,13 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
 
+highlighter: pygments
+markdown: kramdown  # [ maruku | rdiscount | kramdown | redcarpet ]
+kramdown:
+  input:         GFM
+  auto_ids:      true
+  auto_id_prefix:'id-'
+
 # Site settings
 title: two8g
 email: ybxnice@gmail.com

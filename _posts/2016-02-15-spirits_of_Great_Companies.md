@@ -5,37 +5,39 @@ categories: other
 ---
 
 ## The spirits of great companies
+
 **大企业的精神**
 
-1. Wikipedia
+ 1. Wikipedia
 
-	Imagine a world in which every single human being can freely share in the sum of all knowledge.
+    Imagine a world in which every single human being can freely share
+    in the sum of all knowledge.
 
-2. Facebook
+ 2. Facebook
 
-	Connect on a global scale.
+    Connect on a global scale.
 
-3. WhatsApp
+ 3. WhatsApp
 
-	Simple. Personal.Real Time Messaging.
+    Simple. Personal.Real Time Messaging.
 
-4. Google
+ 4. Google
 
-	Google’s mission is to organize the world’s information and make it universally accessible and useful.
+    Google’s mission is to organize the world’s information and make it
+    universally accessible and useful.
 
-5. Twitter
+ 5. Twitter
 
-	Twitter is your window to the world.
+    Twitter is your window to the world.
 
-6. 腾讯
+ 6. 腾讯
 
-	通过互联网服务提升人类生活品质。
+    通过互联网服务提升人类生活品质。
 
-7. 百度
+ 7. 百度
 
-	让人们最平等便捷地获取信息，找到所求。
+    让人们最平等便捷地获取信息，找到所求。
 
-8. Netflix
+ 8. Netflix
 
-	See what's next.
-	Watch anywhere. Cancel anytime.
+    See what's next. Watch anywhere. Cancel anytime.

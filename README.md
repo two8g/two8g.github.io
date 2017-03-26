@@ -12,12 +12,12 @@
 ## 联系方式  
  - Tel: 18710849538
  - Email: ybxnice@gmail.com
- - QQ/WeChat: 395120985
- - github: https://github.com/two8g
+ - GitHub: https://github.com/two8g
+ - 现居住地: 西安
  
 ## 工作经历  
 
-  西安博创软件(2014,7月-2017,今)
+ - 西安博创软件(2014,7月-2017,今)
   
 #### 项目经历  
 
@@ -41,13 +41,10 @@
     
     项目主要解决复杂HTML内容(包含LaTeX,Markdown等)到文档(DOC,DOCX,PDF,PNG)的自动化格式转换难题.由于我最熟悉LaTeX语法和MathJax渲染工具的后台开发,项目由我全圈负责.最大问题为渲染问题和排版问题.对于问题一,我实验过Webkit和V8渲染引擎,效果不尽理想,而且部分引擎存在浏览器应用先决条件,部分引擎内存和CPU消耗太大.最终采用了Linux下Xvfb虚拟显示方案,解决了网页至图片的转码需求.排版问题包括Office文档及PDF排版美化问题,通过一月的PANDOC转码工具,Office XML和xelatex排版系统的研究,最终达到90+%的满意效果.
 
-------  
-
-#### 其它项目  
-
-1. "自由搭"生鲜配送后台  
-2. 会议投稿审核系统  
-
 #### 技能
 
 Java,Spring,Solr,Linux,Redis,Git,IDEA
+
+#### 自我描述
+
+热爱编程,喜欢独立思考,对新世界充满好奇心的小码农

@@ -109,7 +109,7 @@
         <li md-pos="860-884"><span md-pos="863-881">HTML+LaTeX文本转码服务(2015/04 - 2015/07; 2016/05 - 2016/10)</span></li>
         <p md-pos="885-1266"><span
                 md-pos="885-952">公司基于安全考虑,文本数据在部分场景下需要使用图像格式.部分场景需要转为其它文档格式(PDF,DOCX)转换,同时需要提供公共API服务;</span><br/>
-          <span md-pos="1008-1210"><b>针对图像问题,实验了Html2canvas和PhantomJS方法,效果不尽理想,Html2canvas存在浏览器应用必要条件,PhantomJS的内存和CPU消耗太大.最终采用了Cutycapt+XVFB方案,其效果和性能最佳.由于累计工作量是超过1000w.为了进一步提高效率,采用了多任务工作流的并发编程模式,使得每秒工作量达600,.为了处理文档转码问题,花了一个多月,对PANDOC(Haskell语言),Office XML和Xelatex排版系统的学习和实验,最终达到90+%的满意效果;</b></span><br/>
+          <span md-pos="1008-1210"><b>针对图像问题,由于Html2canvas和PhantomJS的效果不尽理想,其中Html2canvas存在浏览器应用必要条件,PhantomJS的内存和CPU消耗太大.最终采用了Cutycapt+XVFB方案,其效果和性能最佳.由于累计工作量超过1000w.为了进一步提高效率,采用了多任务工作流的并发编程模式,使得每秒工作量达600.为了处理文档转码问题,对PANDOC(Haskell语言),Office XML和Xelatex排版系统进行了学习和实验,最终达到90%+的满意效果;</b></span><br/>
           <span md-pos="1211-1265">完美解决了HTML至图片的转码需求,文档转码最终也达到90%以上的满意效果.</span></p>
       </ol>
       <br/>

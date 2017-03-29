@@ -69,7 +69,7 @@ Class<? extends ArrayList> integerListClass_1 = integerList_1.getClass();
 而下面这样的写法,是无法编译通过的.
 ```java
 List<Integer> integerList = new ArrayList<>();
-Class<? extends List> integerListClass = integerList.getClass();
+Class<? extends ArrayList> integerListClass = integerList.getClass();
 ```
 
 理解了上面的静态类型和动态类型就非常容易理解JAVA面向对象的多态特性,以及类型转换知识.

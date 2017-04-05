@@ -21,166 +21,40 @@
 
 ## 西安博创软件软件有限公司 （ 2014年7月 ~ 2017年3月 ）
 
-### DEF项目 
-我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。
+### 搜索系统项目 
+与另两位同事合作，研究图像识别模糊搜索算法，克服了搜索准确度问题，和Android前端一同优化图像上传速度及图像识别处理。 两个月后，由我搭建了Solr分布式搜索引擎，完成索引词典建设和LaTeX公式分词算法。同时为其它有搜索需求的项目快速提供搜索实现。此外，利用业余时间在Github上参与翻译了Solr使用指南。服务支撑最高100万日访问，搜索响应时间平均在200ms，搜索结果第一命中率达到65%，超过了部分优秀行业竞争对手。
 
 
-### GHI项目 
-我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。
+### 在线视频服务项目 
+负责后台服务开发，使用Spring MVC，Thymeleaf，Mybatis完成服务开发，并与基础服务，APP客户端和WEB前端进行对接。为了缩短服务响应时间，使用Ehcache实现缓存加速，部署服务日志监控应用，实时监控用户访问情况，同时将WEB静态资源上传至CDN网络，改善用户体验。服务日PV达140w+，峰值达200w+。
 
+### “自由搭”生鲜O2O项目 
+与客户交流讨论了项目需求和开发流程，并与团队成员商讨明确了需要，分工和周期。项目中主要负责APP客户端后台开发。包括但不限于用户服务模块，内容展示模块，线上交易模块的REST接口。应对下单规则限制等需求变更，做出快速调整并实现。项目如期交付并稳定运行。进一步学习了Hibernate数据持久化框架和Swagger工具的使用。
 
-### 其他项目
+### 自动化部署实践 
+为改善开发现状：新功能需要按计划上线，同时需要预留充足测试时间，开发人员希望服务快速部署和自动测试。搭建了内网Maven仓库。再处理这个问题时，搭建Jenkins自动部署平台，实现应用快速自动化部署。同时，使用开源GitLab搭建内部代码仓库，为以后源码共享维护和CodeReview做准备。学习并分享git-flow工作流和issue协作方式，使得责任明确及问题持续跟踪。并尝试采用GitLab-CI完成自动打包与自动测试。实现了包依赖的自动化管理，避免了出现手动启动错误类似事件。
 
-（每个公司写2~3个核心项目就好了，如果你有非常大量的项目，那么按分类进行合并，每一类选一个典型写出来。其他的一笔带过即可。）
+### 服务日志监控系统项目
+主动研究开源日志监控技术,使用ELK(ElasticSearch+Logstash+Kibana)组合框架，同时为了尽量不给服务器增加额外压力，采用轻量级的Filebeat将所有服务访问日志导入ELK系统中。然后针对Nginx  、Tomcat、Redis日志编写相应配置，进行日志过滤，在Kibana上添加各类监控数据图标规则。填补服务访问日志监控空白，异常排查工作简单安全。还可以随时通过Kibana的图表轻松查看服务运行状态和服务压力，使得及早发现异常，帮助快速定位异常原因。
+
+### 内容转码服务项目
+公司基于安全考虑，文本数据在部分场景下需要使用图像格式。还需要转为其它文档格式(PDF，DOCX)转换，同时需要提供公共API服务。针对图像问题，由于Html2canvas和PhantomJS的效果不尽理想，其中Html2canvas存在浏览器应用必要条件，PhantomJS的内存和CPU消耗太大。最终采用了Cutycapt+XVFB方案，其效果和性能最佳。由于累计工作量超过1000万。为了进一步提高效率，采用了多任务工作流的并发编程模式，使得每秒工作量达600。为了处理文档转码问题，对PANDOC(Haskell语言)，Office XML和Xelatex排版系统进行了学习和实验，最终达到90%+的满意效果。
 
 ---
 
-# 开源项目和作品
-（这一段用于放置工作以外的、可证明你的能力的材料）
+# 我的技能
 
-## 开源项目
-（对于程序员来讲，没有什么比Show me the code能有说服力了）
+- 开发：JAVA/OO/AOP/SOLID/Shell
+- 框架：Spring/Spring MVC/Thymeleaf/Hibernate/Mybatis/Dubbo
+- 数据库：MySQL/Redis/Solr/
+- 工具：Git/Jenkins/IDEA/Swagger
+- 平台：阿里云ECS,微信开发平台
 
- - [STU](http://github.com/yourname/projectname)：项目的简要说明，Star和Fork数多的可以注明
- - [WXYZ](http://github.com/yourname/projectname)：项目的简要说明，Star和Fork数多的可以注明
+# 自我评价
 
-## 技术文章
-（挑选你写作或翻译的技术文章，好的文章可以从侧面证实你的表达和沟通能力，也帮助招聘方更了解你）
-
-- [一个产品经理眼中的云计算：前生今世和未来](http://get.jobdeer.com/706.get)
-- [来自HeroKu的HTTP API 设计指南(翻译文章)](http://get.jobdeer.com/343.get) （ ```好的翻译文章可以侧证你对英文技术文档的阅读能力```）
-
-# 技能清单
-
-以下均为我熟练使用的技能
-
-- Web开发：PHP/Hack/Node
-- Web框架：ThinkPHP/Yaf/Yii/Lavaral/LazyPHP
-- 前端框架：Bootstrap/AngularJS/EmberJS/HTML5/Cocos2dJS/ionic
-- 前端工具：Bower/Gulp/SaSS/LeSS/PhoneGap
-- 数据库相关：MySQL/PgSQL/PDO/SQLite
-- 版本管理、文档和自动化部署工具：Svn/Git/PHPDoc/Phing/Composer
-- 单元测试：PHPUnit/SimpleTest/Qunit
-- 云和开放平台：SAE/BAE/AWS/微博开放平台/微信应用开发
-
-## 参考技能关键字
-
-本技能关键字列表是从最近招聘Java的数百份JD中统计出来的，括号中是出现的词频。如果你的简历要投递给有机器（简历分选系统）和不如机器（不懂技术的HR）筛选简历环节的地方，请一定从下边高频关键词中选择5～10个适合你自己的。
-
-- java(730)
-- spring(305)
-- web(260)
-- mysql(250)
-- oracle(207)
-- linux(198)
-- j2ee(182)
-- javascript(177)
-- sql(176)
-- hibernate(169)
-- html(139)
-- tomcat(132)
-- struts(128)
-- jquery(116)
-- jsp(106)
-- ajax(96)
-- css(94)
-- ibatis(84)
-- mvc(77)
-- servlet(71)
-- xml(70)
-- js(62)
-- eclipse(51)
-- mybatis(51)
-- jboss(47)
-- struts2(47)
-- weblogic(46)
-- redis(46)
-- apache(45)
-- http(44)
-- shell(39)
-- python(38)
-- hadoop(37)
-- nosql(35)
-- ssh(35)
-- sqlserver(33)
-- mongodb(33)
-- svn(32)
-- uml(32)
-- json(27)
-- unix(27)
-- maven(27)
-- nginx(26)
-- webservice(25)
-- jdbc(24)
-- memcached(23)
-- tcp(22)
-- resin(22)
-- jvm(21)
-- socket(21)
-- db2(19)
-- springmvc(19)
-- websphere(16)
-- soa(16)
-- mina(14)
-- android(14)
-- extjs(13)
-- erp(12)
-- memcache(12)
-- api(11)
-- jetty(11)
-- myeclipse(11)
-- ext(10)
-- git(10)
-- jpa(10)
-- svm(9)
-- php(9)
-- jms(9)
-- ruby(9)
-- lucene(8)
-- html5(8)
-- postgresql(8)
-- crm(7)
-- javaee(7)
-- sybase(7)
-- freemarker(6)
-- cache(6)
-- jsf(6)
-- j2se(6)
-- jbpm(6)
-- cvs(6)
-- junit(6)
-- visio(6)
-- netty(6)
-- hbase(6)
-- nio(6)
-- powerdesigner(6)
-- oo(6)
-- aop(6)
-- workflow(5)
-- restful(5)
-- ios(5)
-- ant(5)
-- mssql(5)
-- orm(5)
-- rose(5)
-- solr(5)
-- webwork(5)
-- zookeeper(4)
-- soap(4)
-- o2o(4)
-- wap(4)
-- cxf(4)
-- thrift(4)
-- xmpp(3)
-- p2p(3)
-- javabean(3)
-- jee(3)
-- hdfs(3)
-- dom(3)
-- hibernate3(3)
-
-
-
+- 热爱学习，喜欢开源，充满好奇心
+- 喜欢阅读技术书籍和博客，喜欢分享讨论
+- 喜欢鼓捣源码，追求优美的代码
 
 ---
 

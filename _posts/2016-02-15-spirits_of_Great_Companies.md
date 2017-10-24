@@ -6,7 +6,7 @@ categories: other
 
 ## The spirits of great companies
 
-**大企业的精神**
+**spirits**
 
  1. Wikipedia
 

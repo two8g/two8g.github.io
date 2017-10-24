@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Jekyll 搭建博客
+title: Jekyll Blog
 ---
 
 # Jekyll
 
 https://help.github.com/articles/setting-up-your-pages-site-locally-with-jekyll/
-http://jekyllrb.com/ 待写
+http://jekyllrb.com/

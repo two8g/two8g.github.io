@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 消息队列与领域事件
+title: MQ And Domain Event
 categories: 设计
 tags: 消息 发布订阅 事件驱动 领域事件
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Logstash 笔记(1)
+title: Logstash and ELK
 categories: ELK
 tags: Logstash 日志 ELK
 ---

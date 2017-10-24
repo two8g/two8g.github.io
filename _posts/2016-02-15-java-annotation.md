@@ -1,11 +1,11 @@
 ---
 layout: post
-title: JAVA注解
+title: JAVA Annotation
 categories: JAVA
-tags: java 注解
+tags: java 注解 annotation
 ---
 
-# java注解(annotation)
+# java Annotation
 
 ## Java注解全面解析
 

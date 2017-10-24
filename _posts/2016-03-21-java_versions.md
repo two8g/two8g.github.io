@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: JAVA
-title: java 版本介绍
+title: java version
 date: 2016-03-22 22:45:25 +0800
 ---
 

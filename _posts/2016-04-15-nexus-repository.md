@@ -1,6 +1,6 @@
 ---
 layout: post
-title: nexus私服使用
+title: nexus repository
 categories: nexus
 tags: nexus maven java
 ---

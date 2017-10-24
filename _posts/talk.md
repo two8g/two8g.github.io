@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 它山之石
+title: talk
 categories: other
-tags: 它山之石 道理
+tags: talk
 ---
 
 # 它山之石

@@ -35,3 +35,6 @@ author:
 googleAnaly:
   config: true
   id: UA-71835017-1
+google_analytics: UA-71835017-1
+show_downloads: true
+theme: jekyll-theme-time-machine

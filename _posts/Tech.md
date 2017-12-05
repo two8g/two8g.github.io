@@ -1,7 +1,7 @@
 
 # Spring MVC
 
-围绕一个servlet调度器调度请求和处理请设计，包括可配置的Handler Mappings(处理器映射),View resolution(视图处理). 还有本地化，时区和文件上传等。
+围绕一个servlet调度器调度请求和处理请求设计，包括可配置的Handler Mappings(处理器映射),View resolution(视图处理). 还有本地化，时区和文件上传等。
 
 默认的处理器基于@Controller和@RequestMapping注解。同时支持RESTful Web服务。
 

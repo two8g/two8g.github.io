@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+md=$1
+name=${md%.*}
+echo '<meta http-equiv="content-type" content="text/html;charset=utf-8">' > $name.html
+markdown $1 >> $name.html
+wkhtmltopdf $name.html $name.pdf

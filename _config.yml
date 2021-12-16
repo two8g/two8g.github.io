@@ -13,8 +13,8 @@ kramdown:
 # Site settings
 title: two8g
 email: ybxnice@gmail.com
-description: 易斌鑫的学习博客
-keywords: 编程技术
+description: 易斌鑫的个人博客
+keywords: 易斌鑫,数学,软件
 favicon: /images/two8g_16x16.ico
 url: "http://two8g.com" # the base hostname & protocol for your site
 twitter_username: two8g
@@ -26,8 +26,8 @@ author:
   avatar: http://s.gravatar.com/avatar/a97ad60bc6a6d1ba33ab765286f735bb?s=80
   name: two8g
   name_cn: 易斌鑫
-  email: ybxnice@gmail.com
-  twitter_username: two8g
+  email: ybxlife AT foxmail.com, ybxnice AT gmail.com
+  # twitter_username: two8g
   github_username:  two8g
   oscgit_username: ybxgit
 
